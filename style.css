@@ -1,0 +1,44 @@
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .pinturas {
+    justify-content: center;
+}
+
+.pinturas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pintura {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.pintura img {
+    width: 100%;
+}
+
+section .textos {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+
+    color: white;
+
+}
+
+section .titulo {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+section .sub-titulo {
+    font-size: 17px;
+}
